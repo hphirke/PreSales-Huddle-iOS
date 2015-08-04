@@ -17,8 +17,7 @@ class NetworkCommunication {
   var getTask: NSURLSessionDataTask?
   
   init() {
-    baseUrl_ = "http://172.24.212.28:8080/"
-    // baseUrl_ = "http://127.0.0.1:8080/"
+    baseUrl_ = "http://127.0.0.1:8080/"
     requestTimeOut = 10.0
     config_ = NSURLSessionConfiguration.defaultSessionConfiguration()
   }
