@@ -1,0 +1,3 @@
+[submodule "go-webservice"]
+	path = go-webservice
+	url = git@github.com:uttamgandhi24/pre-sales-huddle-webservice.git

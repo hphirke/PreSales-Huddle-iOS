@@ -2,7 +2,7 @@
 //  CalendarNotification.swift
 //  PreSales-Huddle
 //
-//  Created by Himanshu Phirke on 22/07/15.
+//  Created by Vinaya Mandke on 22/07/15.
 //  Copyright (c) 2015 synerzip. All rights reserved.
 //
 
