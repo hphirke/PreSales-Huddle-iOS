@@ -17,3 +17,6 @@ To setup submodule run command:
 - git submodule update
 
 This will pull code from go-webservice git hub project
+
+or you can use (which will fetch all submodules automatically):
+git clone --recursive <PreSales-Huddle-iOS app url>
