@@ -1,0 +1,13 @@
+PODS:
+  - CorePlot (1.6)
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - CorePlot
+  - MBProgressHUD (~> 0.9.1)
+
+SPEC CHECKSUMS:
+  CorePlot: 820901f6c147f2d84549ffa1f0902869f980d74d
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+
+COCOAPODS: 0.38.2

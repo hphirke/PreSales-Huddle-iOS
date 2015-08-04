@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DateSelector" customModule="PreSales_Huddle" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="xzM-25-Bxf" id="bkj-JF-ceX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" userLabel="DateSelector">
+            <rect key="frame" x="0.0" y="0.0" width="509" height="206"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="xzM-25-Bxf">
+                    <rect key="frame" x="2" y="44" width="507" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="459675331.19218999">
+                        <!--2015-07-27 07:35:31 +0000-->
+                    </date>
+                </datePicker>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Plc-bx-rUe">
+                    <rect key="frame" x="0.0" y="0.0" width="509" height="44"/>
+                    <items>
+                        <barButtonItem title="Cancel" id="56z-NL-y33">
+                            <connections>
+                                <action selector="cancel:" destination="-1" id="9jc-0i-VNF"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="MGd-nz-OQV"/>
+                        <barButtonItem title="Done" id="TXY-Q5-Opd">
+                            <connections>
+                                <action selector="done:" destination="-1" id="QVp-9O-bii"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Plc-bx-rUe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1KB-ON-AOZ"/>
+                <constraint firstAttribute="trailing" secondItem="Plc-bx-rUe" secondAttribute="trailing" id="CQa-Wp-dAS"/>
+                <constraint firstItem="xzM-25-Bxf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="2" id="Guy-lV-eh9"/>
+                <constraint firstAttribute="bottom" secondItem="xzM-25-Bxf" secondAttribute="bottom" id="WLC-GV-re7"/>
+                <constraint firstItem="Plc-bx-rUe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="X4H-NV-7q6"/>
+                <constraint firstAttribute="trailing" secondItem="xzM-25-Bxf" secondAttribute="trailing" id="dHk-mF-IA7"/>
+                <constraint firstItem="xzM-25-Bxf" firstAttribute="top" secondItem="Plc-bx-rUe" secondAttribute="bottom" id="vvW-lD-rmM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="325" y="410.5"/>
+        </view>
+    </objects>
+</document>
