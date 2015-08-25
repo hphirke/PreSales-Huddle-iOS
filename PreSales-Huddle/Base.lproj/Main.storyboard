@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CWh-ey-Dek">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CWh-ey-Dek">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -1103,12 +1103,12 @@
                                 <include reference="oe5-wI-Ajd"/>
                                 <exclude reference="uW1-8B-YyB"/>
                                 <include reference="zr1-5X-S2A"/>
-                                <exclude reference="mm5-OT-fCM"/>
                                 <exclude reference="3oG-q8-pp4"/>
                                 <include reference="AgH-B7-Yrd"/>
                                 <exclude reference="HAm-Or-h0g"/>
                                 <include reference="II9-36-NfC"/>
                                 <exclude reference="JzV-2A-wib"/>
+                                <exclude reference="mm5-OT-fCM"/>
                             </mask>
                         </variation>
                     </view>
